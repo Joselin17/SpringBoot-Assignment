@@ -25,7 +25,7 @@ The Services used in this application are,
 •	Depending on the user's choice, perform the corresponding action, and then it will return to the menu.
 
 4. Running the app
-->Clone the repository: git clone https://github.com/PaviG128/E-Commerce-Assignment-3.git
+->Clone the repository with git clone command
 ->Import the project into STS:
 ->Click File > Import...
 ->Select Maven > Existing Maven Projects and click Next
