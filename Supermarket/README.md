@@ -14,21 +14,6 @@ This is a simple Supermarket Order Management System implemented using Spring Bo
   - **controller**: REST controllers for handling HTTP requests.
 - **src/main/resources**: Contains application properties and SQL scripts.
  
-## Getting Started
- 
-1. Clone the repository: https://github.com/PaviG128/ORM-Assignment-4.git
- 
-   git clone https://github.com/PaviG128/ORM-Assignment-4.git
-   
-2. Build the project:
- 
-   ./mvnw clean install
-   
-3. Run the application:
- 
-   ./mvnw spring-boot:run
-   
-The application will be accessible at `http://localhost:8080`.
  
 ## API Endpoints
  
