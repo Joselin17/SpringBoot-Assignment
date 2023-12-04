@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Search</title>
+</head>
+<body>
+    <h2>Flight Search</h2>
+    <form action="/flight-search" method="post" th:object="${flightSearch}">
+        Origin: <input type="text" th:field="*{origin}" required><br>
+        Destination: <input type="text" th:field="*{destination}" required><br>
+        Date: <input type="date" th:field="*{date}" required><br>
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
